@@ -1,6 +1,7 @@
 <?php
 // l'affichage final de tout :
 include_once 'include/header.php';
+
 ?>
 
 
