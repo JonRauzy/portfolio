@@ -14,13 +14,14 @@
     <body>
         <div class="nav" style="display: flex; justify-content: space-between; padding:20px;">
             <div class="black-bg">
-                <a href="?p=projects">Projets</a>
+                <a href="?p=homepage">accueil</a>
+                <a href="?p=projects">projets</a>
                 <a href="?p=tutorials">tutoriels</a>
-                <a href="?p=cv">CV</a>
+                <a href="?p=cv">cv</a>
                 <a href="?=contact">contact</a>
                 <a href="?=links">liens</a>
             </div>
             <div class="yellow-gb">
-                <a href="?=connect">Connexion</a>
+                <a href="?=connect">connexion</a>
             </div>
         </div>
