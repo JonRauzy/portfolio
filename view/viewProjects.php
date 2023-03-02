@@ -1,4 +1,5 @@
 <?php
+$titre = "projets";
 include_once 'include/header.php';
 ?>
 
@@ -10,4 +11,6 @@ foreach ($resultProjects as $result) :
     <p><?= $result['description'] ?></p>
     <a href="<?= $result['link'] ?>">Cliquez ici</a>
     <img src="<?= $result['img'] ?>" alt="">
+    <a href="?id=<?= $result['id']?>">Cliquez pour voire plus détails </a>
 <?php endforeach;
+    

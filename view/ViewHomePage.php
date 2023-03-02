@@ -1,5 +1,6 @@
 <?php
-// l'affichage final de tout :
+// l'affichage final de tout :7
+$titre = "accueil";
 include_once 'include/header.php';
 
 ?>
