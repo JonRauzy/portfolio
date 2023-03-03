@@ -12,4 +12,4 @@ include_once 'include/header.php';
 endforeach;
 ?>
 
-<a href="../public/index.php">retour</a>
+<a href="?p=projects">retour</a>

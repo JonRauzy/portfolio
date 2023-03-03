@@ -22,9 +22,15 @@ elseif (isset($_GET['p']) && $_GET['p'] === "cv") {
 elseif (isset($_GET['p']) && $_GET['p'] === "contact") {
     require_once '../view/viewContact.php';
     
-  }
+}
+
+elseif(isset($_POST['name'],$_POST['email'], $_POST['message'])){
+    insertMail($db);
+    include '../view/include/message.php';
+}
 
 elseif (isset($_GET['p']) && $_GET['p'] === "links") {
+    $resultLinks = getLinks($db);
     require_once '../view/viewLinks.php';
 }
 

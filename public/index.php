@@ -2,9 +2,12 @@
 
 require_once '../config.php';
 require_once '../model/modelProject.php';
+require_once '../model/modelLinks.php';
+require_once '../model/modelMail.php';
 
 try{
     $db = mysqli_connect(DB_HOST,DB_LOGIN,DB_PWD,DB_NAME,DB_PORT);
+    mysqli_set_charset($db,DB_CHARSET);
 }catch(Exception $e){
     die($e->getMessage());
 } 
