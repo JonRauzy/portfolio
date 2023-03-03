@@ -4,6 +4,7 @@ require_once '../config.php';
 require_once '../model/modelProject.php';
 require_once '../model/modelLinks.php';
 require_once '../model/modelMail.php';
+require_once '../model/modelConnect.php';
 
 try{
     $db = mysqli_connect(DB_HOST,DB_LOGIN,DB_PWD,DB_NAME,DB_PORT);
@@ -13,7 +14,7 @@ try{
 } 
 
 
-if(false){
+if(isset($_POST['login'], $_POST['pword'])){
 
     require_once '../controller/controllerPrivate.php';
 
