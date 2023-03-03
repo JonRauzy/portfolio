@@ -11,6 +11,7 @@ try{
 
 
 if(false){
+
     require_once '../controller/controllerPrivate.php';
 
 }else{
@@ -18,4 +19,3 @@ if(false){
     // appel le controleur
     require_once '../controller/controllerPublic.php';
 }
-

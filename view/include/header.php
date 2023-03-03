@@ -18,8 +18,8 @@
                 <a href="?p=projects">projets</a>
                 <a href="?p=tutorials">tutoriels</a>
                 <a href="?p=cv">cv</a>
-                <a href="?p=contact">contact</a>
                 <a href="?p=links">liens</a>
+                <a href="?p=contact">contact</a>
             </div>
             <div class="yellow-gb">
                 <a href="?p=connect">connexion</a>

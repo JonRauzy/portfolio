@@ -1,6 +1,5 @@
 <?php
 
-
 if (isset($_GET['p']) && $_GET['p'] === "projects") {
     $resultProjects = getProjects($db);
     require_once '../view/viewProjects.php';
@@ -22,7 +21,8 @@ elseif (isset($_GET['p']) && $_GET['p'] === "cv") {
 
 elseif (isset($_GET['p']) && $_GET['p'] === "contact") {
     require_once '../view/viewContact.php';
-}
+    
+  }
 
 elseif (isset($_GET['p']) && $_GET['p'] === "links") {
     require_once '../view/viewLinks.php';
@@ -35,15 +35,3 @@ elseif (isset($_GET['p']) && $_GET['p'] === "connect") {
 else{
     require_once '../view/viewHomePage.php';
 }
-
-// <a href="?p=homepage">accueil</a>
-// <a href="?p=projects">projets</a>
-// <a href="?p=tutorials">tutoriels</a>
-// <a href="?p=cv">cv</a>
-// <a href="?p=contact">contact</a>
-// <a href="?p=links">liens</a>
-// </div>
-// <div class="yellow-gb">
-// <a href="?=connect">connexion</a>
-// </div>
-// </div>
