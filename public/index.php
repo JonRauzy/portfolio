@@ -14,7 +14,7 @@ try{
 } 
 
 
-if(isset($_POST['login'], $_POST['pword'])){
+if(isset($_POST['login'], $_POST['password'])){
 
     require_once '../controller/controllerPrivate.php';
 

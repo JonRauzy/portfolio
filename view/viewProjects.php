@@ -1,6 +1,7 @@
 <?php
 $titre = "projets";
 include_once 'include/header.php';
+include_once 'include/header.php';
 ?>
 
 <?php

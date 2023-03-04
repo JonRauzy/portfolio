@@ -14,7 +14,7 @@ require_once '../view/include/header.php';
             <h1>Connectez-vous</h1>
             <form action="" method="post" id="sub-form">
                 <input type="text" placeholder="nom d'utilisateur" name="login">
-                <input type="password" placeholder="mot de passe" name="pword">
+                <input type="password" placeholder="mot de passe" name="password">
                 <input type="submit" id="btn-submit" value="Se connecter">
             </form>
             <a href="?p=mdpForget">Mot de passe oublié ?</a>

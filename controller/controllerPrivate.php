@@ -1,18 +1,15 @@
-<?php 
+<?php
 
-$login = htmlspecialchars(strip_tags(trim($_POST['login'])));
-$password = htmlspecialchars(strip_tags(trim($_POST['pword'])));
-$allUsers = connect($db);
+$login = htmlspecialchars(strip_tags(trim($_POST['login'])),ENT_QUOTES);
+$password = htmlspecialchars(strip_tags(trim($_POST['password'])),ENT_QUOTES);
+$isConnect = connect($db, $login, $password);
 
 
-foreach($allUsers as $user){
+if (is_string($isConnect)) {
+    $erreur = $isConnect;
+    include '../view/viewConnect.php';
+}
 
-    if($user['login']==$login && $user['password']==$password){
-    
-        require_once '../view/viewPrivate.php';
-        break;
-    }else{
-        $erreur = 'on te connait pas';
-        require_once '../view/viewConnect.php';
-    }
+if ($isConnect === true) {
+    include '../view/viewPrivate.php';
 }
