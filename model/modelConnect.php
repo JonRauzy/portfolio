@@ -1,7 +1,6 @@
 <?php
 
-function connect(mysqli $theDB, string $userLogin, string $userPassword): string|bool
-{
+function connect(mysqli $theDB, string $userLogin, string $userPassword) {
     $userLogin = mysqli_real_escape_string($theDB, $userLogin);
 
     $sqlConnect = "SELECT * FROM users WHERE login='$userLogin';";

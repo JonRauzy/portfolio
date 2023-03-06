@@ -3,7 +3,7 @@
 require_once '../config.php';
 require_once '../model/modelProject.php';
 require_once '../model/modelLinks.php';
-require_once '../model/modelMail.php';
+require_once '../model/modelContact.php';
 require_once '../model/modelConnect.php';
 
 try{
