@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 require_once '../config.php';
 require_once '../model/modelProject.php';
 require_once '../model/modelLinks.php';

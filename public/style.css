@@ -5,8 +5,17 @@
 }
 
 body {
-    background-color: wheat;
     font-family: roboto;
+    background-color: white;
+    color: black;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+.dark-mode a {
+    color: white;
 }
 
 a {
@@ -16,3 +25,5 @@ a {
 a:hover{
     color: red;
 }
+
+  
