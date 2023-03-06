@@ -10,5 +10,8 @@ foreach ($resultLinks as $result) :
     <p><?= $result['description'] ?></p><br>
     <a href="<?= $result['link'] ?>">Cliquez ici</a><br>
     <img src="<?= $result['img'] ?>" alt="" width="200px"><br>
-<?php endforeach;
+<?php endforeach; ?>
+
+<?php
+include_once '../view/include/footer.php';
 

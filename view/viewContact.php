@@ -12,3 +12,6 @@ require_once '../view/include/header.php';
     <textarea name="message" id="message" cols="30" rows="10" placeholder="votre texte"></textarea>
     <button type="submit">clic</button>
 </form>
+
+<?php
+include_once '../view/include/footer.php';

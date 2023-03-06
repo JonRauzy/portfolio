@@ -20,8 +20,7 @@ elseif (isset($_GET['p']) && $_GET['p'] === "cv") {
 }
 
 elseif (isset($_GET['p']) && $_GET['p'] === "contact") {
-    require_once '../view/viewContact.php';
-    
+    require_once '../view/viewContact.php';   
 }
 
 elseif(isset($_POST['name'],$_POST['email'], $_POST['message'])){

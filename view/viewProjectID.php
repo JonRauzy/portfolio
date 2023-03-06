@@ -13,3 +13,6 @@ endforeach;
 ?>
 
 <a href="?p=projects">retour</a>
+
+<?php
+include_once '../view/include/footer.php';

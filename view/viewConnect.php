@@ -25,3 +25,6 @@ require_once '../view/include/header.php';
             </div>
             <a href="?p=subNew" id="btn-new"><button>Créer nouveau compte</button></a>
         </div>
+
+<?php
+include_once '../view/include/footer.php';
