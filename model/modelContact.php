@@ -5,8 +5,16 @@ function insertMail($theDB) {
     $email = htmlspecialchars(strip_tags(trim($_POST['email'])));
     $message = htmlspecialchars(strip_tags(trim($_POST['message'])),ENT_QUOTES);
     $object = $_POST['object'];
-    $sqlMail = "INSERT INTO `contacts`(`name`, `email`, `message`, `object`) VALUES ('$name','$email','$message','$object');";
-    return mysqli_query($theDB, $sqlMail);
+    if(!empty($name) && !empty($email) && !empty($message) && filter_var($email, FILTER_VALIDATE_EMAIL)){
+        try{
+            $sqlMail = "INSERT INTO `contacts`(`name`, `email`, `message`, `object`) VALUES ('$name','$email','$message','$object');";
+        }catch(Exception $e){
+            exit($e->getMessage());
+        }
+        return mysqli_query($theDB, $sqlMail);
+    }else{
+        return "y'a des problème!";
+    }
 }
 
 

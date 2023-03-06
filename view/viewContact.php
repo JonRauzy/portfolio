@@ -2,7 +2,7 @@
 
 $titre = 'contact';
 require_once '../view/include/header.php';
-
+$retour = "";
 ?>
 
 <h1>contact</h1>
@@ -19,6 +19,18 @@ require_once '../view/include/header.php';
     <button type="submit">clic</button>
 </form>
 
+<?php 
+if(!empty($envoyage)){
+    if(is_string($envoyage)){
+        echo $envoyage;
+    }else{
+
+        echo "message envoyé!";
+    }
+}
+?>
+
+<h2><?= $retour ?></h2>
 
 <?php
 include_once '../view/include/footer.php';

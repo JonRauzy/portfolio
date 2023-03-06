@@ -6,7 +6,7 @@ include_once 'include/header.php';
 
 <?php
 foreach ($resultProjects as $result):
-    ?>
+?>
 
     <h2><?= $result['title'] ?></h2>
     <p><?= $result['description'] ?></p>

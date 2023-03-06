@@ -1,6 +1,5 @@
 <?php 
 
-
 function getLinks($theDB){
     $sqlLinks = "SELECT * FROM links;";
     $queryLinks = mysqli_query($theDB, $sqlLinks);

@@ -25,9 +25,10 @@ elseif (isset($_GET['p']) && $_GET['p'] === "contact") {
 }
 
 elseif (isset($_POST['name'], $_POST['email'], $_POST['object'], $_POST['message'])) {
-    $sendDB = insertMail($db);
+    $envoyage = insertMail($db);
     // $wesh = sendMail();
-    require_once '../view/include/message.php';
+    // require_once '../view/include/message.php';
+    require_once '../view/viewContact.php';
 } 
 
 elseif (isset($_GET['p']) && $_GET['p'] === "links") {
