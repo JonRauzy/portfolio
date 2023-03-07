@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+/* global style  */
 body {
     font-family: roboto;
     background-color: white;
@@ -26,4 +28,5 @@ a:hover{
     color: red;
 }
 
-  
+/* homepage  */
+
