@@ -16,17 +16,21 @@
 <body>
 
     <body>
-        <div class="nav" style="display: flex; justify-content: space-between; padding:20px;">
+        <div class="nav">
+            <label class="switch">
+                <input type="checkbox" onclick="darkMode()">
+                <span class="slider"></span>
+            </label>
             <div class="black-bg">
-                <a href="?p=homepage" style="<?php if ($titre === "accueil"): ?>color:red<?php endif ?>">accueil</a>
-                <a href="?p=projects" style="<?php if ($titre === "projets"): ?>color:red<?php endif ?>">projets</a>
-                <a href="?p=tutorials" style="<?php if ($titre === "tutoriels"): ?>color:red<?php endif ?>">tutoriels</a>
-                <a href="?p=cv" style="<?php if ($titre === "CV"): ?>color:red<?php endif ?>">cv</a>
-                <a href="?p=links" style="<?php if ($titre === "liens"): ?>color:red<?php endif ?>">liens</a>
-                <a href="?p=contact" style="<?php if ($titre === "contact"): ?>color:red<?php endif ?>">contact</a>
+                <a href="?p=homepage" style="<?php if ($titre === "accueil"): ?>color:rgb(255, 0, 0)<?php endif ?>">accueil</a>
+                <a href="?p=projects" style="<?php if ($titre === "projets"): ?>color:rgb(255, 0, 0)<?php endif ?>">projets</a>
+                <a href="?p=tutorials"
+                    style="<?php if ($titre === "tutoriels"): ?>color:rgb(255, 0, 0)<?php endif ?>">tutoriels</a>
+                <a href="?p=cv" style="<?php if ($titre === "CV"): ?>color:rgb(255, 0, 0)<?php endif ?>">cv</a>
+                <a href="?p=links" style="<?php if ($titre === "liens"): ?>color:rgb(255, 0, 0)<?php endif ?>">liens</a>
+                <a href="?p=contact" style="<?php if ($titre === "contact"): ?>color:rgb(255, 0, 0)<?php endif ?>">contact</a>
             </div>
-            <div class="yellow-gb">
-                <a href="?p=connect" style="<?php if ($titre === "connexion"): ?>color:red<?php endif ?>">connexion</a>
+            <div class="yellow-bg">
+                <a href="?p=connect" style="<?php if ($titre === "connexion"): ?>color:rgb(255, 0, 0)<?php endif ?>">connexion</a>
             </div>
         </div>
-        <button onclick="darkMode()">Toggle dark mode</button>
