@@ -1,4 +1,4 @@
-
+// dark mode 
 let element = document.querySelector("body");
 if (localStorage.getItem("dark") === "true") {
 	element.classList.toggle("dark-mode");
@@ -12,4 +12,11 @@ function darkMode() {
 	} else {
 		localStorage.removeItem("dark");
 	}
+}
+
+
+// menu burger 
+
+function openMenu(){
+	let nav = document.querySelector('.nav')
 }
