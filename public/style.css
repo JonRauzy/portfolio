@@ -18,15 +18,21 @@ body {
 	background-color: black;
 	color: white;
 }
-.dark-mode a {
+.dark-mode .black-bg a, .dark-mode .mobile-nav a{
 	color: white;
 }
+
 a {
 	text-decoration: none;
 	color: black;
 }
 a:hover {
 	color: rgb(190, 0, 0);
+}
+
+.pace {
+	height: 0vh;
+	width: 0vw;
 }
 
 /* toggle button  */
@@ -39,8 +45,9 @@ a:hover {
 	width: 60px; /*=w*/
 	height: 30px; /*=h*/
 	transform: translateY(50%);
-	position: relative;
-	top: -0.8rem;
+	position: absolute;
+	top: 1rem;
+	left: 2rem;
 }
 
 .slider {
@@ -81,11 +88,11 @@ a:hover {
 .brgr-menu {
 	width: 100px;
 	height: 100px;
-	background-color: red;
 	border: none;
 	cursor: pointer;
 	display: none;
 	padding: 0;
+	background: #ffffff00;
 }
 
 .line {
@@ -95,16 +102,21 @@ a:hover {
 	transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
 		stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.dark-mode .line {
+	stroke: white;
+}
+
 .line1 {
-	stroke-dasharray: 60 207;
+	stroke-dasharray: 50 157;
 	stroke-width: 6;
 }
 .line2 {
-	stroke-dasharray: 60 60;
+	stroke-dasharray: 50 157;
 	stroke-width: 6;
 }
 .line3 {
-	stroke-dasharray: 60 207;
+	stroke-dasharray: 50 157;
 	stroke-width: 6;
 }
 .opened .line1 {
@@ -164,30 +176,62 @@ a:hover {
 /* responvie navbar  */
 
 @media screen and (max-width: 900px) {
-	body {
-		background-color: red;
+	.pace {
+		height: 10vh;
+		width: 100vw;
 	}
-	.nav .black-bg, .nav .yellow-bg{
+
+	.nav .black-bg, .nav .yellow-bg {
 		display: none;
 	}
+
 	.brgr-menu {
-		display: flex;
+		display: block;
+		position: absolute;
+		right: 0px;
+		top: 0px;
+	}
+
+	.switch {
+		display: block;
+		position: absolute;
+		left: 1rem;
+		top: 1rem;
 	}
 
 	.nav {
 		position: absolute;
+		top: -100vh;
+		left: 0;
+		overflow: hidden;
 		height: 100vh;
 		width: 100vw;
+		background-color: white;
+		padding: 0;
+		margin: 0;
+		transition: 1s;
+	}
+
+	.open-menu {
+		top: 0;
+		transition: 1s;
 	}
 
 	.mobile-nav {
-		height: 100%;
-		width: 100%;
-		display: block;
+		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		background-color: blue;
+		justify-content: space-around;
+		text-align: center;
+		margin: auto;
+	}
+
+	.dark-mode .nav {
+		color: white;
+		background-color: black;
+	}
+
+	.switch-open {
+		display: none;
 	}
 }
 

@@ -18,5 +18,9 @@ function darkMode() {
 // menu burger 
 
 function openMenu(){
-	let nav = document.querySelector('.nav')
+	let nav = document.querySelector(".nav")
+	let switchButton = document.querySelector(".switch")
+	nav.classList.toggle("open-menu")
+	switchButton.classList.toggle("switch-open")
+	
 }
