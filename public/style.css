@@ -21,7 +21,6 @@ body {
 .dark-mode .black-bg a, .dark-mode .mobile-nav a{
 	color: white;
 }
-
 a {
 	text-decoration: none;
 	color: black;
@@ -29,7 +28,6 @@ a {
 a:hover {
 	color: rgb(190, 0, 0);
 }
-
 .pace {
 	height: 0vh;
 	width: 0vw;
@@ -135,6 +133,7 @@ a:hover {
 	stroke-width: 6;
 }
 
+
 /* navbar  */
 
 .mobile-nav {
@@ -172,6 +171,7 @@ a:hover {
 	padding: 1rem;
 	color: black;
 }
+
 
 /* responvie navbar  */
 
@@ -234,5 +234,6 @@ a:hover {
 		display: none;
 	}
 }
+
 
 /* homepage  */
