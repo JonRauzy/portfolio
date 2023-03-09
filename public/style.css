@@ -1,29 +1,28 @@
-/* Tablet – 768 x 1024.
-iPhone – 375 x 812.
-Laptop – 1366 x 768. */
 
 /* all h3's are for error/success/request communication purpose */
 
 /* all red color: rgb(202, 38,38); */
 /* all red:hover color : rgb(185, 39, 39)  */
 
+/* fond:  */
+/* background-color: rgba(255, 255, 255, 0.096); */
+/* box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.082); */
 
+
+/* GLOBAL + DARK-MODE */
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
-
-/* GLOBAL + DAR-MODE */
 body {
 	font-family: roboto;
 	background-color: white;
 	color: black;
 }
 h1 {
-	margin-bottom: 2rem;
-	text-align: center;
-	
+	margin: 4rem 0 2rem 0;
+	text-align: center;	
 }
 .dark-mode {
 	background-color: black;
@@ -147,7 +146,6 @@ a:hover {
 	stroke-width: 6;
 }
 
-
 /* NAVBAR  */
 
 .mobile-nav {
@@ -190,7 +188,7 @@ a:hover {
 }
 
 /* responsive navbar  */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1020px) {
 	.pace {
 		height: 10vh;
 		width: 100vw;
@@ -260,11 +258,12 @@ a:hover {
 	}
 }
 
-
-
 /* HOMEPAGE  */
 
-
+.container-homepage {
+	width: 90vw;
+	margin: auto;
+}
 
 /* CONNECT  */
 .connecter, .contact {
@@ -350,6 +349,7 @@ a:hover {
 	background-color: rgb(230, 230, 230);
 }
 
+
 /* PROJECT  */
 
 .projects {
@@ -372,9 +372,6 @@ a:hover {
 	max-width: 500px;
 	box-shadow: 0px 5px 10px rgba(73, 73, 73, 0.267);
 }
-
-
-
 
 .project-solo {
 	display: flex;
@@ -427,6 +424,44 @@ a:hover {
 	}
 	.projects hr {
 		width: 100%;
+	}
+}
+
+
+/* LINKS  */
+.container-links {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.link-solo {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto 2rem;
+	padding: 1rem;
+	background-color: rgba(255, 255, 255, 0.096); 
+	box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.082); 
+}
+
+.link-solo img {
+	height: 250px;
+	width: 250px;
+	object-fit: contain;
+}
+
+/* links responsive  */
+@media (max-width: 1000px) {
+	.container-links {
+		width: 90%;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media (max-width: 700px) {
+	.container-links {
+		width: 95%;
+		grid-template-columns: 1fr;
 	}
 }
 
