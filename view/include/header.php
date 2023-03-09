@@ -23,7 +23,7 @@
         </label>
         <div class="nav">
             <!-- toggle button dark mode   -->
-            <div style="width:60px"></div>
+            <div class="rock" style="width:127px"></div>
 
 
             <div class="black-bg">
@@ -46,6 +46,7 @@
                     style="<?php if ($titre === "connexion"): ?>color:rgb(255, 0, 0)<?php endif ?>">connexion</a>
             </div>
 
+            <!-- mobile navbar  -->
             <div class="mobile-nav">
                 <a href="?p=homepage"
                     style="<?php if ($titre === "accueil"): ?>color:rgb(255, 0, 0)<?php endif ?>">accueil</a>

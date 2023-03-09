@@ -12,7 +12,7 @@ function connect(mysqli $theDB, string $userLogin, string $userPassword) {
     }
 
     if (mysqli_num_rows($queryConnect) === 0) {
-        return $erreur = "on te connait pas";
+        return "on te connait pas";
     }
 
     $recup = mysqli_fetch_assoc($queryConnect);
@@ -22,6 +22,6 @@ function connect(mysqli $theDB, string $userLogin, string $userPassword) {
         $_SESSION['myID'] = session_id();
         return true;
     } else {
-        return $erreur =  "on te connait pas";
+        return "on te connait pas";
     }
 }

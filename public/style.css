@@ -2,23 +2,28 @@
 iPhone – 375 x 812.
 Laptop – 1366 x 768. */
 
+/* all h3's are for error/success/request communication purpose */
+
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
 
-/* global style  */
+/* GLOBAL + DAR-MODE */
 body {
 	font-family: roboto;
 	background-color: white;
 	color: black;
 }
+h1 {
+	margin: 1rem;
+}
 .dark-mode {
 	background-color: black;
 	color: white;
 }
-.dark-mode .black-bg a, .dark-mode .mobile-nav a{
+.dark-mode a, .dark-mode .mobile-nav a{
 	color: white;
 }
 a {
@@ -27,6 +32,9 @@ a {
 }
 a:hover {
 	color: rgb(190, 0, 0);
+}
+.dark-mode .yellow-bg a {
+	color: rgb(54, 0, 0);
 }
 .pace {
 	height: 0vh;
@@ -157,12 +165,13 @@ a:hover {
 
 .nav a {
 	line-height: 7vh;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	margin-top: 1rem;
+	/* font-weight: ; */
 }
 
 .black-bg a {
-	margin-right: 2rem;
+	margin: 0 1rem;
 }
 
 .yellow-bg {
@@ -173,12 +182,17 @@ a:hover {
 }
 
 
-/* responvie navbar  */
+/* RESPONSIVE NAVBAR  */
 
 @media screen and (max-width: 900px) {
 	.pace {
 		height: 10vh;
 		width: 100vw;
+	}
+
+	.rock {
+		display: none;
+		width: 0px;
 	}
 
 	.nav .black-bg, .nav .yellow-bg {
@@ -202,6 +216,10 @@ a:hover {
 	.nav {
 		position: absolute;
 		top: -100vh;
+
+		/* pour tester la navbar responsive solo*/
+		/* top: 0; */ 
+
 		left: 0;
 		overflow: hidden;
 		height: 100vh;
@@ -223,6 +241,7 @@ a:hover {
 		justify-content: space-around;
 		text-align: center;
 		margin: auto;
+		padding: 0;
 	}
 
 	.dark-mode .nav {
@@ -236,4 +255,97 @@ a:hover {
 }
 
 
-/* homepage  */
+
+/* HOMEPAGE  */
+
+
+
+/* CONNECT  */
+.connecter, .contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;   
+	/* flex where we need to be  */
+}
+
+/* container general*/
+.connecter, .contact{
+    width: 350px;
+    margin: auto;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.096);
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.082);
+}
+
+/* form connection*/
+.form {
+	margin: auto;
+    width: 95%;
+    margin-bottom: 4rem;
+}
+
+.form input, .form textarea, .form select{
+    width: 90%;
+    height: 3rem;
+    background-color:rgb(243, 241, 241);
+    margin: 0.2rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.form textarea {
+	height: 20vh;
+}
+
+.form {
+    margin-bottom: 0.5rem;
+}
+
+
+#ou {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 15% 1fr;
+}
+
+#ou hr {
+    border: solid 1px rgba(195, 195, 195);
+    height: 1px;
+    margin-top: 0.8rem;
+}
+
+#btn-submit, #btn-contact {
+	background-color: rgb(202, 38,38);
+    color: white;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+	cursor: pointer;
+}
+#btn-submit:hover, #btn-contact:hover{
+	background-color: rgb(185, 39, 39);
+}
+#btn-new button {
+    height: 2rem;
+    border-radius: 5px;
+    padding: 1.1rem 3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 0rem;
+    background-color: white;
+    border: solid rgb(207, 207, 207) 2px;
+	cursor: pointer;
+}
+#btn-new button:hover {
+	background-color: rgb(230, 230, 230);
+}
+
+
+/* FOOTER  */
+.footer {
+	text-align: center;
+	margin: 4rem;
+}
