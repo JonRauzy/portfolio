@@ -4,6 +4,10 @@ Laptop – 1366 x 768. */
 
 /* all h3's are for error/success/request communication purpose */
 
+/* all red color: rgb(202, 38,38); */
+/* all red:hover color : rgb(185, 39, 39)  */
+
+
 * {
 	padding: 0;
 	margin: 0;
@@ -17,7 +21,9 @@ body {
 	color: black;
 }
 h1 {
-	margin: 1rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	
 }
 .dark-mode {
 	background-color: black;
@@ -31,10 +37,10 @@ a {
 	color: black;
 }
 a:hover {
-	color: rgb(190, 0, 0);
+	color: rgb(185, 39, 39);
 }
 .dark-mode .yellow-bg a {
-	color: rgb(54, 0, 0);
+	color: black;
 }
 .pace {
 	height: 0vh;
@@ -142,19 +148,20 @@ a:hover {
 }
 
 
-/* navbar  */
+/* NAVBAR  */
 
 .mobile-nav {
 	display: none;
 }
 
 .nav {
-	height: 7vh;
-	margin: 1rem;
+	height: 10vh;
+	margin: 0 1rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
 }
 
 .nav-links {
@@ -175,15 +182,14 @@ a:hover {
 }
 
 .yellow-bg {
-	background-color: yellow;
-	margin-right: -1rem;
-	padding: 1rem;
+	background-color: rgb(251, 255, 0);
+	/* /* margin-right: -1rem;  */
+   	padding: 0.8rem; 
 	color: black;
+	/* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164); */
 }
 
-
-/* RESPONSIVE NAVBAR  */
-
+/* responsive navbar  */
 @media screen and (max-width: 900px) {
 	.pace {
 		height: 10vh;
@@ -292,6 +298,7 @@ a:hover {
     margin: 0.2rem;
     border-radius: 5px;
     padding: 1rem;
+	border: 1px solid rgba(0, 0, 0, 0.253);
 }
 
 .form textarea {
@@ -341,6 +348,86 @@ a:hover {
 }
 #btn-new button:hover {
 	background-color: rgb(230, 230, 230);
+}
+
+/* PROJECT  */
+
+.projects {
+	width: 90vw;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+	background-color: rgba(255, 255, 255, 0.096);
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.082);
+	padding: 2rem;
+	
+}
+
+.projects hr {
+	width: 0;
+}
+
+.projects img  {
+	max-width: 500px;
+	box-shadow: 0px 5px 10px rgba(73, 73, 73, 0.267);
+}
+
+
+
+
+.project-solo {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+.project-solo h2 {
+	padding-bottom: 1rem;
+	text-decoration: underline;
+}
+
+.project-solo p, .project-solo 	a{
+	padding-bottom: 0.2rem;
+}
+
+/* projet id (solo) */
+.project-id {
+	width: 80vw;
+	margin: auto;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(255, 255, 255, 0.096);
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.082);
+}
+.project-id img {
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.082);
+}
+
+.project-id p {
+	font-size: 1.5rem;
+	padding: 1rem 0;
+}
+
+.project-id a {
+	padding: 1rem 0;
+}
+
+/* responsif projects  */
+@media (max-width: 900px) {
+	.projects {
+		grid-template-columns: 1fr;
+	}
+	.projects img {
+		width: 100%;
+	}
+	.project-solo {
+		margin-bottom: 2rem;
+	}
+	.projects hr {
+		width: 100%;
+	}
 }
 
 

@@ -28,39 +28,39 @@
 
             <div class="black-bg">
                 <a href="?p=homepage"
-                    style="<?php if ($titre === "accueil"): ?>color:rgb(255, 0, 0)<?php endif ?>">accueil</a>
+                    style="<?php if ($titre === "accueil"): ?>color:rgb(185, 39, 39)<?php endif ?>">accueil</a>
                 <a href="?p=projects"
-                    style="<?php if ($titre === "projets"): ?>color:rgb(255, 0, 0)<?php endif ?>">projets</a>
+                    style="<?php if ($titre === "projets"): ?>color:rgb(185, 39, 39)<?php endif ?>">projets</a>
                 <a href="?p=tutorials"
-                    style="<?php if ($titre === "tutoriels"): ?>color:rgb(255, 0, 0)<?php endif ?>">tutoriels</a>
-                <a href="?p=cv" style="<?php if ($titre === "CV"): ?>color:rgb(255, 0, 0)<?php endif ?>">cv</a>
+                    style="<?php if ($titre === "tutoriels"): ?>color:rgb(185, 39, 39)<?php endif ?>">tutoriels</a>
+                <a href="?p=cv" style="<?php if ($titre === "CV"): ?>color:rgb(185, 39, 39)<?php endif ?>">cv</a>
                 <a href="?p=links"
-                    style="<?php if ($titre === "liens"): ?>color:rgb(255, 0, 0)<?php endif ?>">liens</a>
+                    style="<?php if ($titre === "liens"): ?>color:rgb(185, 39, 39)<?php endif ?>">liens</a>
                 <a href="?p=contact"
-                    style="<?php if ($titre === "contact"): ?>color:rgb(255, 0, 0)<?php endif ?>">contact</a>
+                    style="<?php if ($titre === "contact"): ?>color:rgb(185, 39, 39)<?php endif ?>">contact</a>
             </div>
 
             <!-- connect button -->
             <div class="yellow-bg">
                 <a href="?p=connect"
-                    style="<?php if ($titre === "connexion"): ?>color:rgb(255, 0, 0)<?php endif ?>">connexion</a>
+                    style="<?php if ($titre === "connexion"): ?>color:rgb(185, 39, 39)<?php endif ?>">connexion</a>
             </div>
 
             <!-- mobile navbar  -->
             <div class="mobile-nav">
                 <a href="?p=homepage"
-                    style="<?php if ($titre === "accueil"): ?>color:rgb(255, 0, 0)<?php endif ?>">accueil</a>
+                    style="<?php if ($titre === "accueil"): ?>color:rgb(185, 39, 39)<?php endif ?>">accueil</a>
                 <a href="?p=projects"
-                    style="<?php if ($titre === "projets"): ?>color:rgb(255, 0, 0)<?php endif ?>">projets</a>
+                    style="<?php if ($titre === "projets"): ?>color:rgb(185, 39, 39)<?php endif ?>">projets</a>
                 <a href="?p=tutorials"
-                    style="<?php if ($titre === "tutoriels"): ?>color:rgb(255, 0, 0)<?php endif ?>">tutoriels</a>
-                <a href="?p=cv" style="<?php if ($titre === "CV"): ?>color:rgb(255, 0, 0)<?php endif ?>">cv</a>
+                    style="<?php if ($titre === "tutoriels"): ?>color:rgb(185, 39, 39)<?php endif ?>">tutoriels</a>
+                <a href="?p=cv" style="<?php if ($titre === "CV"): ?>color:rgb(185, 39, 39)<?php endif ?>">cv</a>
                 <a href="?p=links"
-                    style="<?php if ($titre === "liens"): ?>color:rgb(255, 0, 0)<?php endif ?>">liens</a>
+                    style="<?php if ($titre === "liens"): ?>color:rgb(185, 39, 39)<?php endif ?>">liens</a>
                 <a href="?p=contact"
-                    style="<?php if ($titre === "contact"): ?>color:rgb(255, 0, 0)<?php endif ?>">contact</a>
+                    style="<?php if ($titre === "contact"): ?>color:rgb(185, 39, 39)<?php endif ?>">contact</a>
                 <a href="?p=connect"
-                    style="<?php if ($titre === "connexion"): ?>color:rgb(255, 0, 0)<?php endif ?>">connexion</a>
+                    style="<?php if ($titre === "connexion"): ?>color:rgb(185, 39, 39)<?php endif ?>">connexion</a>
             </div>
 
 
