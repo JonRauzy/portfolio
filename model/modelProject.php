@@ -2,7 +2,7 @@
 
 
 function getProjects($theDB){
-    $sqlProjects = "SELECT * FROM projects;";
+    $sqlProjects = "SELECT * FROM projects ORDER BY id;";
     $queryProjects = mysqli_query($theDB, $sqlProjects);
     return mysqli_fetch_all($queryProjects, MYSQLI_ASSOC);
 }
