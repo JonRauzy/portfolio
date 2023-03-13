@@ -514,16 +514,17 @@ a:hover {
 .container-cv {
 	background-color: rgba(255, 255, 255, 0.096); 
 	box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.082);
-	width: 70%;
+	width: 60%;
 	margin: auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr ;
+	font-size: 1.5rem;
 }
 
 .photo-cv img {
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
 	object-fit: cover;
 	margin: 1rem;
 	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.363);
@@ -552,7 +553,7 @@ a:hover {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding: 0 1rem;
+		padding: 0 1rem;		
 	}
 
 	.photo-cv {
@@ -580,6 +581,12 @@ a:hover {
 		flex-direction: column;
 		justify-content: left;	
 	}
+}
+@media (max-width: 600px){
+	.container-cv {
+		font-size: 1rem;
+	}
+	
 }
 
 /* FOOTER  */

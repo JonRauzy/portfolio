@@ -42,4 +42,4 @@ elseif (isset($_GET['p']) && $_GET['p'] === "connect") {
  
 else {
     require_once '../view/viewHomePage.php';
-}
+}   

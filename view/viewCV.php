@@ -22,33 +22,35 @@ require_once '../view/include/header.php';
     </div>
     <div class="content-cv">
         <div class="cv-lign">
-            <h4 class="titre-cv">taff 1 : </h4>
-            <p class="taff-cv">description</p>
+            <h4 class="titre-cv">Taff 1 : </h4>
+            <p class="taff-cv">Description</p>
             <p class="dates-cv">2012-2013</p>
         </div>
         <div class="cv-lign">
-            <h4 class="titre-cv">taff 1 : </h4>
-            <p class="taff-cv">description</p>
+            <h4 class="titre-cv">Taff 1 : </h4>
+            <p class="taff-cv">Description</p>
             <p class="dates-cv">2012-2013</p>
         </div>
         <div class="cv-lign">
-            <h4 class="titre-cv">taff 1 : </h4>
-            <p class="taff-cv">description</p>
+            <h4 class="titre-cv">Taff 1 : </h4>
+            <p class="taff-cv">Description</p>
             <p class="dates-cv">2012-2013</p>
         </div>
         <div class="cv-lign">
-            <h4 class="titre-cv">taff 1 : </h4>
-            <p class="taff-cv">description</p>
+            <h4 class="titre-cv">Taff 1 : </h4>
+            <p class="taff-cv">Description</p>
             <p class="dates-cv">2012-2013</p>
         </div>
         <div class="cv-lign">
-            <h4 class="titre-cv">taff 1 : </h4>
-            <p class="taff-cv">description</p>
+            <h4 class="titre-cv">Taff 1 : </h4>
+            <p class="taff-cv">Description</p>
             <p class="dates-cv">2012-2013</p>
         </div>
-
-      
-
+        <div class="cv-lign">
+            <h4 class="titre-cv">Taff 1 : </h4>
+            <p class="taff-cv">Description</p>
+            <p class="dates-cv">2012-2013</p>
+        </div>
     </div>
 </div>
 
