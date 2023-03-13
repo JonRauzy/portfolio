@@ -23,6 +23,7 @@ body {
 h1 {
 	margin: 4rem 0 2rem 0;
 	text-align: center;	
+	text-transform: uppercase;
 }
 .dark-mode {
 	background-color: black;
@@ -188,7 +189,7 @@ a:hover {
 }
 
 /* responsive navbar  */
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 920px) {
 	.pace {
 		height: 10vh;
 		width: 100vw;
@@ -284,10 +285,35 @@ a:hover {
 }
 
 /* form connection*/
+
+.connect-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 5rem;
+}
+
+.connect-header {
+	text-align: center;
+	margin-left: 10rem;
+}
+
+.connect-header h1{
+	font-size: 2.5rem;
+	text-decoration: underline;
+}
+.connect-header p {
+	font-size: 1.7rem;
+}
+
+#connect-header-responsive {
+	display: none;
+}
+
 .form {
 	margin: auto;
     width: 95%;
     margin-bottom: 4rem;
+	padding-top: 1rem;
 }
 
 .form input, .form textarea, .form select{
@@ -349,6 +375,24 @@ a:hover {
 	background-color: rgb(230, 230, 230);
 }
 
+/* connect responsive  */
+
+@media (max-width: 1200px){
+	.connect-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		padding-top: 2rem;
+	}
+	
+	.connect-header {
+		display: none;
+	}
+	
+	#connect-header-responsive {
+		display: inline;		
+	}
+
+}
 
 /* PROJECT  */
 
@@ -465,6 +509,78 @@ a:hover {
 	}
 }
 
+/* CV */
+
+.container-cv {
+	background-color: rgba(255, 255, 255, 0.096); 
+	box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.082);
+	width: 70%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr ;
+}
+
+.photo-cv img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	margin: 1rem;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.363);
+}
+
+.header-cv {
+	text-align: right;
+	margin: 3rem;
+	margin-right: 4rem;
+}
+
+.content-cv {
+	padding-top: 2rem;
+	grid-column: 1/3;
+}
+
+.cv-lign {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 0.5rem;
+}
+
+@media (max-width:920px) {
+	.container-cv{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0 1rem;
+	}
+
+	.photo-cv {
+		width: 100%;
+		margin: 1rem;
+		
+	}
+	
+	.photo-cv img{
+		max-width: 100%;
+		margin: auto;
+	}
+
+	.header-cv {
+		margin: 0 0.5rem;
+		text-align: left;
+		width: 100%;
+	}
+
+	.content-cv {
+		width: 100%;
+	}
+
+	.cv-lign {
+		flex-direction: column;
+		justify-content: left;	
+	}
+}
 
 /* FOOTER  */
 .footer {

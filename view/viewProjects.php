@@ -14,7 +14,12 @@ include_once 'include/header.php';
             <p><?= $result['description'] ?></p>
             <a href="?id=<?= $result['id'] ?>">Cliquez pour voire plus de détails</a>
             <img src="<?= $result['img'] ?>" alt=""><br>
-            <a href="<?= $result['link'] ?>">Cliquez ici pour visiter</a>
+            <?php if (!empty($result['link'])): ?>
+                <a href="<?= $result['link'] ?>">Cliquez ici pour visiter la version en ligne</a>
+            <?php else: ?>
+                <p>!! Ce projet n'est pas en ligne !!</p>
+            <?php endif; ?>
+
             <hr>
         </div>
     <?php endforeach; ?>
