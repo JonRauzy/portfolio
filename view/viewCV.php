@@ -15,41 +15,42 @@ require_once '../view/include/header.php';
         <p>Rue de chez moi</p>
         <p>1666 bruxelles</p>
         <p>0466/666-666</p>
-        <a href="">fb</a>
-        <a href="">insta</a>
-        <a href="">linkdin</a>
-        <a href="">of</a>
+        <a href="" target="_blank">fb</a>
+        <a href="" target="_blank">insta</a>
+        <a href="" target="_blank">linkdin</a>
     </div>
     <div class="content-cv">
+        <h4>travail</h4>
         <div class="cv-lign">
-            <h4 class="titre-cv">Taff 1 : </h4>
-            <p class="taff-cv">Description</p>
-            <p class="dates-cv">2012-2013</p>
+            <h5 class="titre-cv">Second de cuisine</h5>
+            <p class="taff-cv">Brew dog café</p>
+            <p class="dates-cv">2018-2019</p>
         </div>
         <div class="cv-lign">
-            <h4 class="titre-cv">Taff 1 : </h4>
-            <p class="taff-cv">Description</p>
-            <p class="dates-cv">2012-2013</p>
+            <h5 class="titre-cv">Barman</h5>
+            <p class="taff-cv">L'athénée</p>
+            <p class="dates-cv">2018-2019</p>
         </div>
         <div class="cv-lign">
-            <h4 class="titre-cv">Taff 1 : </h4>
-            <p class="taff-cv">Description</p>
-            <p class="dates-cv">2012-2013</p>
+            <h5 class="titre-cv">Barman</h5>
+            <p class="taff-cv">l'amère à boire</p>
+            <p class="dates-cv">2016-2018</p>
         </div>
         <div class="cv-lign">
-            <h4 class="titre-cv">Taff 1 : </h4>
-            <p class="taff-cv">Description</p>
-            <p class="dates-cv">2012-2013</p>
+            <h5 class="titre-cv">Manager / barman</h5>
+            <p class="taff-cv">Delirium Café</p>
+            <p class="dates-cv">2013-2016</p>
         </div>
         <div class="cv-lign">
-            <h4 class="titre-cv">Taff 1 : </h4>
-            <p class="taff-cv">Description</p>
-            <p class="dates-cv">2012-2013</p>
+            <h5 class="titre-cv">Casseur de genoux</h5>
+            <p class="taff-cv">Toulouse</p>
+            <p class="dates-cv">2003-2013</p>
         </div>
+        <h4>formation</h4>
         <div class="cv-lign">
-            <h4 class="titre-cv">Taff 1 : </h4>
-            <p class="taff-cv">Description</p>
-            <p class="dates-cv">2012-2013</p>
+            <h5 class="titre-cv">WebDev full stack</h5>
+            <p class="taff-cv">CF2M</p>
+            <p class="dates-cv">2022-2023</p>
         </div>
     </div>
 </div>

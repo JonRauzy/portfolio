@@ -26,15 +26,20 @@
 }
 
 .content-cv {
-	padding-top: 2rem;
 	grid-column: 1/3;
 }
 
-.cv-lign {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
+.content-cv h4 {
+	text-align: center;
+	text-decoration: underline;
 	padding: 0.5rem;
+}
+
+.cv-lign {
+	display: grid;
+	grid-template-columns: 1fr 1fr 20%;	
+	padding: 0.5rem;
+	text-align: left;
 }
 
 @media (max-width:920px) {

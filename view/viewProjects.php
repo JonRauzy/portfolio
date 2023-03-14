@@ -15,7 +15,7 @@ include_once 'include/header.php';
             <a href="?id=<?= $result['id'] ?>">Cliquez pour voire plus de détails</a>
             <img src="<?= $result['img'] ?>" alt=""><br>
             <?php if (!empty($result['link'])): ?>
-                <a href="<?= $result['link'] ?>">Cliquez ici pour visiter la version en ligne</a>
+                <a href="<?= $result['link'] ?>" target="_blank">Cliquez ici pour visiter la version en ligne</a>
             <?php else: ?>
                 <p>!! Ce projet n'est pas en ligne !!</p>
             <?php endif; ?>

@@ -1,13 +1,10 @@
 /* CONNECT  */
-.connecter, .contact {
-    display: flex;
-    flex-direction: column;
-    text-align: center;   
-	/* flex where we need to be  */
-}
 
 /* container general*/
 .connecter, .contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;   
     width: 350px;
     margin: auto;
     padding: 0.5rem;
@@ -32,11 +29,11 @@
 }
 
 .connect-header h1{
-	font-size: 2.5rem;
+	font-size: 2rem;
 	text-decoration: underline;
 }
 .connect-header p {
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 }
 
 #connect-header-responsive {

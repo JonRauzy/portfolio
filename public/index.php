@@ -2,11 +2,15 @@
 
 session_start();
 
+// chargement des dépendances 
 require_once '../config.php';
 require_once '../model/modelProject.php';
 require_once '../model/modelLinks.php';
 require_once '../model/modelContact.php';
 require_once '../model/modelConnect.php';
+
+// composer's librairy
+require_once '../vendor/autoload.php';
 
 try{
     $db = mysqli_connect(DB_HOST,DB_LOGIN,DB_PWD,DB_NAME,DB_PORT);
