@@ -2,7 +2,7 @@
     <hr>
     <h2>footer</h2>
 </div>
-<script src="js.js"></script>
+<script src="js/js.js"></script>
 </body>
 
 </html>

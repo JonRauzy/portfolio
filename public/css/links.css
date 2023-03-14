@@ -1,0 +1,36 @@
+/* LINKS  */
+.container-links {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.link-solo {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto 2rem;
+	padding: 1rem;
+	background-color: rgba(255, 255, 255, 0.096); 
+	box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.082); 
+}
+
+.link-solo img {
+	height: 250px;
+	width: 250px;
+	object-fit: contain;
+}
+
+/* links responsive  */
+@media (max-width: 1000px) {
+	.container-links {
+		width: 90%;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media (max-width: 700px) {
+	.container-links {
+		width: 95%;
+		grid-template-columns: 1fr;
+	}
+}
