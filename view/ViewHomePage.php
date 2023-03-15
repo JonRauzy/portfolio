@@ -16,7 +16,7 @@ include_once 'include/header.php';
     </p>
     <p>
         J'ai suivis une formation qualifiante d'un an au CF2M au cours duquel j'ai travaillé sur divers projets de
-        développement web pour améliorer mes compétences et acquérir del'expérience pratique. Mes projets comprennent la
+        développement web pour améliorer mes compétences et acquérir de l'expérience pratique. Mes projets comprennent la
         création de différents site statiques, réponsif, structure
         MVC... 
     </p>

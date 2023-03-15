@@ -18,9 +18,9 @@ require_once '../view/include/header.php';
     </div>
     <div class="video" id="tuto-1">
         <h2>Introdution à la programmation : </h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur esse, odit nobis recusandae accusamus
-            nemo est. Maiores expedita porro officiis praesentium. Aspernatur ipsa mollitia voluptate officia. Minima
-            consectetur iste suscipit?</p>
+        <p style="padding-top: 1rem;">
+            Voici l'introdution à la programmation de Harvard, c'est très intéressant et le professeur est passionant! 
+        </p>
         <iframe width="900" height="800" src="https://www.youtube.com/embed/8mAITcNt710" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -28,7 +28,6 @@ require_once '../view/include/header.php';
     </div>
     <hr>
     <div class="tuto-text" id="tuto-2">
-
         <h2>Comment faire une fonction JavaScript :</h2>
         <p>Selon le MDN, "Les fonctions font partie des briques fondamentales de JavaScript. Une fonction est une
             procédure JavaScript, un ensemble d'instructions effectuant une tâche ou calculant une valeur." En gros
@@ -51,7 +50,6 @@ require_once '../view/include/header.php';
         <img src="img/function3" alt="">
         <h5>La même avec les paramètres</h5>
         <img src="img/function2" alt="">
-
         <h4>Et alors? </h4>
         <p>
             Maintenant on peut appeler la fonction dans notre code. Il suffit pour ça d'écrire son nom suivis des
