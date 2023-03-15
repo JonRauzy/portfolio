@@ -26,19 +26,51 @@ require_once '../view/include/header.php';
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
     </div>
+    <hr>
     <div class="tuto-text" id="tuto-2">
 
-        <h2>Comment faire une fonction :</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit magni similique obcaecati porro tempore non
-            sed minima, velit vero saepe ex laboriosam laudantium ipsa aperiam, asperiores corporis maxime quasi ipsam?
+        <h2>Comment faire une fonction JavaScript :</h2>
+        <p>Selon le MDN, "Les fonctions font partie des briques fondamentales de JavaScript. Une fonction est une
+            procédure JavaScript, un ensemble d'instructions effectuant une tâche ou calculant une valeur." En gros
+            c'est un bloque d'instrction qu'on pourra rappeler à volonté tout au long du notre script. Ca permet au code
+            d'être modulaire, plus concis et aussi plus clair.
         </p>
-        <h4>On passe aux choses sérieuse :</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, praesentium cupiditate. Aperiam est
-            porro iure accusamus cumque amet numquam placeat earum voluptatibus delectus, error aspernatur explicabo
-            facere rerum. Sapiente, culpa.</p>
-        <h4>Et finalement :</h4>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam tempora modi nulla, maiores magni voluptate
-            rerum quis obcaecati labore odio eos, fuga error ex suscipit iste perferendis adipisci. Dolor, quia!</p>
+        <h4>Mais comment on s'y prend?? </h4>
+        <p>
+            Le mot clé ici c'est "function"! Suivi du nom qu'on veut lui assigner et d'une paire aranthése.
+            Puis on met les instructions entre accolade : {} <br>
+            Là on a moulte choix, on peut y mettre des boucles, des conditions, d'autres fonctions... Et à la fin on
+            peut mettre un "return" pour récupérer une valeur spécifique. Ce "return" marque la fin du bloc
+            d'instructions, c'est à dire, o ne saura pas rajouter plus d'instructions après ça!
+            On peut aussi mettre des "paramètres" entre les paranthèse, elles marchent un peu comme des variables, la
+            fonctions va les utiliser et il faudra leur donner une valeur au moment d'appeler la fonction.
+            Bravo! On vient de déclarer notre première fonction! Autrement dit, on l'a créée, on lui a donné un but et
+            on va pouvoir l'utiliser.
+        </p>
+        <h5>fonction basique</h5>
+        <img src="img/function3" alt="">
+        <h5>La même avec les paramètres</h5>
+        <img src="img/function2" alt="">
+
+        <h4>Et alors? </h4>
+        <p>
+            Maintenant on peut appeler la fonction dans notre code. Il suffit pour ça d'écrire son nom suivis des
+            paranthèse! Si on a défini des paramètres au moment de la déclaration il faudra passer des valeurs entre ces
+            paranthèse qu'on appelle des "arguments"
+        </p>
+        <img src="img/function4" alt="">
+        <h4>Un exemple ?</h4>
+        <p>On va créer une fonction basique qui va additionner 2 nombres pour voire un application concrète : </p>
+        <img src="img/exemplefunction1" alt="">
+        <p>Sur la photo ci-dessus on voit le mot-clé <em>function</em>, suivi du nom de la fonction(<em>addition</em>), des paranthèses avec leur paramètre ( <em> nombre1</em> et <em>nombre2</em>), des accolades. Et dans ces accolades on demande à la fonction de retourner (<em>return</em>) la valeur de nombre1 additionné au nombre2 </p> 
+        <img src="img/exemplefunction2" alt="">
+        <p>Et ici on voit qu'on vient d'appeler la fonction, on lui a passé les 2 valeurs en arguments et j'ai mis le résultat en commentaire. Voilààààààààààà! </p>
+        <h4>Pour aller plus loin :</h4>
+        <p>
+            Il existe aussi toutes sortes de fonctions, comme les fonctions fléchées par exemple. Je vous invite à aller
+            vous entrainer sur <a href="https://www.codewars.com" target="_blank">CodeWar</a> pour bien maitriser ce
+            principe avant d'aller plus loin! Et n'oubliez pas <em>amusez-vous!</em>
+        </p>
     </div>
 </div>
 
