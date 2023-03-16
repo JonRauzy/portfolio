@@ -9,11 +9,11 @@ require_once '../view/include/header.php';
     <div class="tuto-select">
         <div class="tuto-card-1">
             <h4>Tutoriel 1 : Intro à la programmation par Harvard </h4>
-            <a href="#tuto-1"><img src="img/tuto1" alt=""></a>
+            <a href="#tuto-1"><img src="img/tuto1.PNG" alt=""></a>
         </div>
         <div class="tuto-card-2">
             <h4>Tutoriel 2 : Comment faire une fonction en JavaScript</h4>
-            <a href="#tuto-2"><img src="img/tuto2" alt=""></a>
+            <a href="#tuto-2"><img src="img/tuto2.PNG" alt=""></a>
         </div>
     </div>
     <div class="video" id="tuto-1">
@@ -47,21 +47,21 @@ require_once '../view/include/header.php';
             on va pouvoir l'utiliser.
         </p>
         <h5>fonction basique</h5>
-        <img src="img/function3" alt="">
+        <img src="img/function3.PNG" alt="">
         <h5>La même avec les paramètres</h5>
-        <img src="img/function2" alt="">
+        <img src="img/function2.PNG" alt="">
         <h4>Et alors? </h4>
         <p>
             Maintenant on peut appeler la fonction dans notre code. Il suffit pour ça d'écrire son nom suivis des
             paranthèse! Si on a défini des paramètres au moment de la déclaration il faudra passer des valeurs entre ces
             paranthèse qu'on appelle des "arguments"
         </p>
-        <img src="img/function4" alt="">
+        <img src="img/function4.PNG" alt="">
         <h4>Un exemple ?</h4>
         <p>On va créer une fonction basique qui va additionner 2 nombres pour voire un application concrète : </p>
-        <img src="img/exemplefunction1" alt="">
+        <img src="img/exemplefunction1.PNG" alt="">
         <p>Sur la photo ci-dessus on voit le mot-clé <em>function</em>, suivi du nom de la fonction(<em>addition</em>), des paranthèses avec leur paramètre ( <em> nombre1</em> et <em>nombre2</em>), des accolades. Et dans ces accolades on demande à la fonction de retourner (<em>return</em>) la valeur de nombre1 additionné au nombre2 </p> 
-        <img src="img/exemplefunction2" alt="">
+        <img src="img/exemplefunction2.PNG" alt="">
         <p>Et ici on voit qu'on vient d'appeler la fonction, on lui a passé les 2 valeurs en arguments et j'ai mis le résultat en commentaire. Voilààààààààààà! </p>
         <h4>Pour aller plus loin :</h4>
         <p>

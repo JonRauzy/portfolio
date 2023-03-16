@@ -1,6 +1,6 @@
 /* LINKS  */
 .container-links {
-	width: 80%;
+	width: 60%;
 	margin: auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -15,6 +15,10 @@
 	box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.082); 
 }
 
+.link-solo p {
+	max-width: 80%;
+}
+
 .link-solo img {
 	height: 250px;
 	width: 250px;
@@ -22,13 +26,13 @@
 }
 
 /* links responsive  */
-@media (max-width: 1000px) {
+@media (max-width: 1500px) {
 	.container-links {
-		width: 90%;
+		width: 70%;
 		grid-template-columns: 1fr 1fr;
 	}
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
 	.container-links {
 		width: 95%;
 		grid-template-columns: 1fr;

@@ -26,8 +26,7 @@ elseif (isset($_GET['p']) && $_GET['p'] === "contact") {
 
 elseif (isset($_POST['name'], $_POST['email'], $_POST['object'], $_POST['message'])) {
     $envoyage = insertMail($db);
-    // $wesh = sendMail();
-    // require_once '../view/include/message.php';
+    $wesh = sendMail();
     require_once '../view/viewContact.php';
 } 
 
@@ -39,7 +38,12 @@ elseif (isset($_GET['p']) && $_GET['p'] === "links") {
 elseif (isset($_GET['p']) && $_GET['p'] === "connect") {
     require_once '../view/viewConnect.php';
 }
+
+elseif (isset($_GET['p']) && $_GET['p'] === "homepage"){
+    require_once '../view/ViewHomePage.php';
+
+}
  
 else {
-    require_once '../view/viewHomePage.php';
+    require_once '../view/ViewHomePage.php';
 }   

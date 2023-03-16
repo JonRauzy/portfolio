@@ -14,7 +14,7 @@ foreach ($projectSolo as $value) :
         <?php
     endforeach;
         ?>
-        <a href="?p=projects" style="font-size: 1.2rem">retour</a>
+        <a href="?p=projects" style="font-size: 1.2rem">&#x2190; retour</a>
         </div>
     </div>
 

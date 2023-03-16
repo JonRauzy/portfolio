@@ -1,34 +1,42 @@
 <?php
 
-// use Symfony\Component\Mailer\Transport;
-// use Symfony\Component\Mailer\Mailer;
-// use Symfony\Component\Mime\Email;
+use Symfony\Component\Mailer\Transport;
+use Symfony\Component\Mailer\Mailer;
+use Symfony\Component\Mime\Email;
 
 
-// function sendMail()
-// {
+function sendMail()
+{
+    $name = htmlspecialchars(strip_tags(trim($_POST['name'])), ENT_QUOTES);
+    $mail = htmlspecialchars(strip_tags(trim($_POST['email'])));
+    $message = htmlspecialchars(strip_tags(trim($_POST['message'])), ENT_QUOTES);
+    $object = $_POST['object'];
     
-//     $name = htmlspecialchars(strip_tags(trim($_POST['name'])), ENT_QUOTES);
-//     $email = htmlspecialchars(strip_tags(trim($_POST['email'])));
-//     $message = htmlspecialchars(strip_tags(trim($_POST['message'])), ENT_QUOTES);
-//     $object = $_POST['object'];
-    
-//     $transport = Transport::fromDsn(MAIL_DSN);
-//     $mailer = new Mailer($transport);
+    $transport = Transport::fromDsn(MAIL_DSN);
+    $mailer = new Mailer($transport);
 
-//     $email = (new Email())
-//         ->from(@$email)
-//         ->to(MAIL_ADMIN)
-//         //->cc('cc@example.com')
-//         //->bcc('bcc@example.com')
-//         //->replyTo('fabien@example.com')
-//         //->priority(Email::PRIORITY_HIGH)
-//         ->subject($name . "a dit " . $object)
-//         ->text($message)
-//         ->html("<p>$message</p>");
+   // pour l'admin :
+   $email = (new Email())
 
-//     $mailer->send($email);
-// }
+   ->from(MAIL_FROM)
+   ->to(MAIL_ADMIN)
+   ->subject($object . " de " . $name)
+   ->text($message)
+   ->html($message);
+
+   $mailer->send($email);
+
+   //pour le user :
+   $email = (new Email())
+
+   ->from(MAIL_FROM)
+   ->to($mail)
+   ->subject("t'as envoyé")
+   ->text("t'as envoyé je t'ai dit")
+   ->html("pareil");
+
+   $mailer->send($email);
+}
 
 
 
