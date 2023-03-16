@@ -50,9 +50,16 @@
 
             <!-- connect button -->
             <div class="yellow-bg">
+                <?php if(empty($_SESSION)) :?>
                 <a href="?p=connect"
                     style="<?php if ($titre === "connexion"): ?>color:rgb(185, 39, 39)<?php endif ?>">connexion</a>
+                <?php else: ?>
+                    <a href="?p=disconnect"
+                    style="<?php if ($titre === "connexion"): ?>color:rgb(185, 39, 39)<?php endif ?>">deconnect</a>
+                <?php endif; ?>
+                
             </div>
+            
 
             <!-- mobile navbar  -->
             <div class="mobile-nav">

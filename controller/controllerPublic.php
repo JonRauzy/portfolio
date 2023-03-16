@@ -21,7 +21,6 @@ elseif (isset($_GET['p']) && $_GET['p'] === "cv") {
 
 elseif (isset($_GET['p']) && $_GET['p'] === "contact") {
     require_once '../view/viewContact.php';
-
 }
 
 elseif (isset($_POST['name'], $_POST['email'], $_POST['object'], $_POST['message'])) {
@@ -37,6 +36,11 @@ elseif (isset($_GET['p']) && $_GET['p'] === "links") {
 
 elseif (isset($_GET['p']) && $_GET['p'] === "connect") {
     require_once '../view/viewConnect.php';
+}
+
+elseif(isset($_GET['p']) && $_GET['p'] === "disconnect"){
+    disconnect();
+    require_once '../view/viewDisconnect.php';
 }
 
 elseif (isset($_GET['p']) && $_GET['p'] === "homepage"){
