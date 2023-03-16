@@ -22,7 +22,6 @@
 </head>
 
 <body>
-
     <body>
         <div class="pace"></div>
         <label class="switch">
@@ -32,8 +31,6 @@
         <div class="nav">
             <!-- toggle button dark mode   -->
             <div class="rock" style="width:127px"></div>
-
-
             <div class="black-bg">
                 <a href="?p=homepage"
                     style="<?php if ($titre === "accueil"): ?>color:rgb(185, 39, 39)<?php endif ?>">accueil</a>
@@ -50,16 +47,15 @@
 
             <!-- connect button -->
             <div class="yellow-bg">
+                <!-- on verifie si il est connecté -->
                 <?php if(empty($_SESSION)) :?>
                 <a href="?p=connect"
                     style="<?php if ($titre === "connexion"): ?>color:rgb(185, 39, 39)<?php endif ?>">connexion</a>
                 <?php else: ?>
                     <a href="?p=disconnect"
                     style="<?php if ($titre === "connexion"): ?>color:rgb(185, 39, 39)<?php endif ?>">deconnect</a>
-                <?php endif; ?>
-                
-            </div>
-            
+                <?php endif; ?>               
+            </div>           
 
             <!-- mobile navbar  -->
             <div class="mobile-nav">
@@ -74,10 +70,16 @@
                     style="<?php if ($titre === "liens"): ?>color:rgb(185, 39, 39)<?php endif ?>">liens</a>
                 <a href="?p=contact"
                     style="<?php if ($titre === "contact"): ?>color:rgb(185, 39, 39)<?php endif ?>">contact</a>
+
+                <!-- on verifie si il est connecté  -->
+                <?php if(empty($_SESSION)) :?>
                 <a href="?p=connect"
                     style="<?php if ($titre === "connexion"): ?>color:rgb(185, 39, 39)<?php endif ?>">connexion</a>
+                <?php else: ?>
+                    <a href="?p=disconnect"
+                    style="<?php if ($titre === "connexion"): ?>color:rgb(185, 39, 39)<?php endif ?>">deconnect</a>
+                <?php endif; ?>               
             </div>
-
 
         </div>
         <!-- burger button  -->

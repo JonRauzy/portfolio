@@ -25,6 +25,10 @@
 	margin-right: 4rem;
 }
 
+.header-cv i {
+	font-size: 30px;
+}
+
 .content-cv {
 	grid-column: 1/3;
 }

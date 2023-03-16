@@ -19,7 +19,7 @@ require_once '../view/include/header.php';
     <div class="video" id="tuto-1">
         <h2>Introdution à la programmation : </h2>
         <p style="padding-top: 1rem;">
-            Voici l'introdution à la programmation de Harvard, c'est très intéressant et le professeur est passionant! 
+            Voici l'introduction à la programmation de Harvard, dispensée par un prof passionnant pour un sujet tout aussi passionnant! Cette vidéo m'a ouvert le 3e œil sur la science des ordinateurs, l'algorithmique et la logique à mettre en œuvre pour résoudre les problèmes liés aux langages informatiques. 10/10 recommandé!
         </p>
         <iframe width="900" height="800" src="https://www.youtube.com/embed/8mAITcNt710" title="YouTube video player"
             frameborder="0"

@@ -14,10 +14,13 @@ require_once '../view/include/header.php';
         <p>Jonathan Rauzy</p>
         <p>Rue de chez moi</p>
         <p>1666 bruxelles</p>
-        <p>0466/666-666</p>
-        <a href="" target="_blank">fb</a>
-        <a href="" target="_blank">insta</a>
-        <a href="" target="_blank">linkdin</a>
+        <p>0466/666-666</p>       
+        <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        
+
+        
     </div>
     <div class="content-cv">
         <h4>travail</h4>

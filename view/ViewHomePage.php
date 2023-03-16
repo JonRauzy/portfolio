@@ -9,7 +9,7 @@ include_once 'include/header.php';
 <div class="container-homepage">
     <img src="img/face.jpg">
     <p>
-        Bonjour et bienvenue sur mon site portfolio en tant que développeur web junior. Je suis passionné par la
+        Bonjour et bienvenu sur mon site portfolio en tant que développeur web junior. Je suis passionné par la
         création de sites web dynamiques et intuitifs qui offrent une expérience utilisateur exceptionnelle. Avec des
         compétences en PHP, JavaScript, HTML et CSS, j'ai acquis une solide base pour créer des sites web interactifs et
         responsifs qui répondent aux besoins spécifiques de mes clients. 
