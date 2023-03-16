@@ -11,8 +11,8 @@ include_once 'include/header.php';
 
         <div class="project-solo">
             <h2><?= $result['title'] ?></h2>
-            <p><?= $result['description'] ?></p>
-            <a href="?id=<?= $result['id'] ?>">Cliquez pour voire plus de détails</a>
+            <p><?= truncate($result['descriptionshort'])?><a href="?id=<?= $result['id'] ?>"> ... Lire la suite</a></p>
+            
             <img src="<?= $result['img'] ?>" alt=""><br>
             <?php if (!empty($result['link'])): ?>
                 <a href="<?= $result['link'] ?>" target="_blank">Cliquez ici pour visiter la version en ligne</a>
