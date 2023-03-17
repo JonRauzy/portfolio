@@ -1,0 +1,85 @@
+/* PROJECT  */
+
+.projects {
+	width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 5rem;
+	background-color: rgba(255, 255, 255, 0.096);
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.082);
+	padding: 2rem;	
+}
+
+.projects hr {
+	display: none;
+}
+
+.projects img  {
+	width: 100%;
+	box-shadow: 0px 5px 10px rgba(73, 73, 73, 0.267);
+}
+
+.project-solo {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+.project-solo h2 {
+	padding-bottom: 1rem;
+	text-decoration: underline;
+}
+
+.project-solo p, .project-solo 	a{
+	padding-bottom: 0.2rem;
+}
+
+/* projet id (solo) */
+.project-id {
+	width: 90vw;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(255, 255, 255, 0.096);
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.082);
+	padding: 2rem;
+}
+
+.container-project-id h1 {
+	padding-top: 2rem;
+}
+
+.project-id img {
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.082);
+}
+
+.project-id p {
+	font-size: 1.5rem;
+	padding: 1rem 0;
+}
+
+.project-id a {
+	padding: 1rem 0;
+}
+
+/* responsif projects  */
+@media (max-width: 900px) {
+	.projects {
+		grid-template-columns: 1fr;
+		padding: 0.5rem;
+	}
+	.projects img, .project-id img {
+		width: 100%;
+	}
+	.project-id {
+		margin-bottom: 2rem;
+		padding: 0.5rem;
+	}
+
+	.projects hr {
+		display: inline-block;
+		margin-top: 2rem;
+		width: 100%;
+	}
+}
