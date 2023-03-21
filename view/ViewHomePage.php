@@ -9,15 +9,15 @@ include_once 'include/header.php';
 <div class="container-homepage">
     <img src="img/face.jpg">
     <p>
-        Bonjour et bienvenu sur mon site portfolio en tant que développeur web junior. Je suis passionné par la
+        Bonjour et bienvenue sur mon site portfolio en tant que développeur web junior. Je suis passionné par la
         création de sites web dynamiques et intuitifs qui offrent une expérience utilisateur exceptionnelle. Avec des
         compétences en PHP, JavaScript, HTML et CSS, j'ai acquis une solide base pour créer des sites web interactifs et
-        responsifs qui répondent aux besoins spécifiques de mes clients. 
+        responsives qui répondent aux besoins spécifiques de mes clients. 
     </p>
     <p>
-        J'ai suivis une formation qualifiante d'un an au CF2M au cours duquel j'ai travaillé sur divers projets de
+        J'ai suivi une formation qualifiante d'un an au CF2M au cours duquel j'ai travaillé sur divers projets de
         développement web pour améliorer mes compétences et acquérir de l'expérience pratique. Mes projets comprennent la
-        création de différents site statiques, réponsif, structure
+        création de différents site statiques, responsive, structure
         MVC... 
     </p>
     <p>

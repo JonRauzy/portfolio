@@ -36,7 +36,7 @@ require_once '../view/include/header.php';
         </div>
         <div class="cv-lign">
             <h5 class="titre-cv">Barman</h5>
-            <p class="taff-cv">l'amère à boire</p>
+            <p class="taff-cv">L'amère à boire</p>
             <p class="dates-cv">2016-2018</p>
         </div>
         <div class="cv-lign">

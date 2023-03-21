@@ -31,18 +31,17 @@ require_once '../view/include/header.php';
         <h2>Comment faire une fonction JavaScript :</h2>
         <p>Selon le MDN, "Les fonctions font partie des briques fondamentales de JavaScript. Une fonction est une
             procédure JavaScript, un ensemble d'instructions effectuant une tâche ou calculant une valeur." En gros
-            c'est un bloque d'instrction qu'on pourra rappeler à volonté tout au long du notre script. Ca permet au code
+            c'est un bloc d'instruction qu'on pourra rappeler à volonté tout au long du notre script. Cela permet au code
             d'être modulaire, plus concis et aussi plus clair.
         </p>
         <h4>Mais comment on s'y prend?? </h4>
         <p>
-            Le mot clé ici c'est "function"! Suivi du nom qu'on veut lui assigner et d'une paire aranthése.
-            Puis on met les instructions entre accolade : {} <br>
-            Là on a moulte choix, on peut y mettre des boucles, des conditions, d'autres fonctions... Et à la fin on
+            Le mot clé ici c'est "function"! Suivi du nom qu'on veut lui assigner et d'une paire parenthése.
+            Puis on met les instructions entre accolades : {} <br>
+            Là on a moult choix, on peut y mettre des boucles, des conditions, d'autres fonctions... Et à la fin on
             peut mettre un "return" pour récupérer une valeur spécifique. Ce "return" marque la fin du bloc
-            d'instructions, c'est à dire, o ne saura pas rajouter plus d'instructions après ça!
-            On peut aussi mettre des "paramètres" entre les paranthèse, elles marchent un peu comme des variables, la
-            fonctions va les utiliser et il faudra leur donner une valeur au moment d'appeler la fonction.
+            d'instructions, c'est-à-dire, on ne saura pas rajouter plus d'instructions après ça!
+            On peut aussi mettre des "paramètres" entre les parenthèses, elles marchent un peu comme des variables, la fonction va les utiliser et il faudra leur donner une valeur au moment d'appeler la fonction.
             Bravo! On vient de déclarer notre première fonction! Autrement dit, on l'a créée, on lui a donné un but et
             on va pouvoir l'utiliser.
         </p>
@@ -52,15 +51,15 @@ require_once '../view/include/header.php';
         <img src="img/function2.PNG" alt="">
         <h4>Et alors? </h4>
         <p>
-            Maintenant on peut appeler la fonction dans notre code. Il suffit pour ça d'écrire son nom suivis des
-            paranthèse! Si on a défini des paramètres au moment de la déclaration il faudra passer des valeurs entre ces
-            paranthèse qu'on appelle des "arguments"
+            Maintenant on peut appeler la fonction dans notre code. Il suffit pour ça d'écrire son nom suivi des
+            parenthèses! Si on a défini des paramètres au moment de la déclaration il faudra passer des valeurs entre ces
+            parenthèses qu'on appelle des "arguments"
         </p>
         <img src="img/function4.PNG" alt="">
         <h4>Un exemple ?</h4>
-        <p>On va créer une fonction basique qui va additionner 2 nombres pour voire un application concrète : </p>
+        <p>On va créer une fonction basique qui va additionner 2 nombres pour voir une application concrète : </p>
         <img src="img/exemplefunction1.PNG" alt="">
-        <p>Sur la photo ci-dessus on voit le mot-clé <em>function</em>, suivi du nom de la fonction(<em>addition</em>), des paranthèses avec leur paramètre ( <em> nombre1</em> et <em>nombre2</em>), des accolades. Et dans ces accolades on demande à la fonction de retourner (<em>return</em>) la valeur de nombre1 additionné au nombre2 </p> 
+        <p>Sur la photo ci-dessus on voit le mot-clé <em>function</em>, suivi du nom de la fonction(<em>addition</em>), des parenthèses avec leurs paramètres ( <em> nombre1</em> et <em>nombre2</em>), des accolades. Et dans ces accolades on demande à la fonction de retourner (<em>return</em>) la valeur du nombre1 additionné au nombre2 </p> 
         <img src="img/exemplefunction2.PNG" alt="">
         <p>Et ici on voit qu'on vient d'appeler la fonction, on lui a passé les 2 valeurs en arguments et j'ai mis le résultat en commentaire. Voilààààààààààà! </p>
         <h4>Pour aller plus loin :</h4>

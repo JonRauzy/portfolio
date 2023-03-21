@@ -7,8 +7,8 @@ $retour = "";
 
 <div class="connect-container">
     <div class="connect-header">
-        <h1>Contactez nous:</h1>
-        <p>Pour nous envoyez un message</p>
+        <h1>Contactez-nous:</h1>
+        <p>Pour nous envoyer un message</p>
     </div>
 
 

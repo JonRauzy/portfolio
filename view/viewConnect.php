@@ -8,7 +8,7 @@ require_once '../view/include/header.php';
 <div class="connect-container">
     <div class="connect-header">
         <h1>Connectez-vous : </h1>
-        <p>Pour accéder aux options d'éditions du site et tout</p>
+        <p>Pour accéder aux options d'édition du site et tout</p>
         
     </div>
     <div class="connecter">
